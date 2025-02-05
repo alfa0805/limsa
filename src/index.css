@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+body{
+    background-color: #121212;
+}
+.container{
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #EAEAEA;
+    padding-bottom: 2px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Yuqoridagi chiziq */
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height: 1.5px;
+    background-color: #8432e8;
+    border-radius: 50px;
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+  }
+  
+  /* Pastdagi chiziq */
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #8432e8;
+    border-radius: 20px;
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+  }
+  
+  .nav-link.active::before {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .nav-link.active::after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  
