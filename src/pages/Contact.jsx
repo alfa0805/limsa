@@ -55,10 +55,10 @@ function Contact() {
         setLoading(false);
       };
   return (
-    <section className="contact w-full h-[50vw]">
-          <div className="container px-5 grid grid-cols-1 md:grid-cols-2 gap-[60px] pt-[170px]">
+    <section id="order" className="contact w-full h-full">
+          <div className="container px-5 grid grid-cols-1 md:grid-cols-2 gap-[60px] pb-5 pt-[150px]">
               <div className="w-full">
-                <h3 className="text-white text-4xl font-bold">{t("contact.title")}</h3>
+                <h3 className="text-white text-4xl max-[440px]:text-3xl font-bold">{t("contact.title")}</h3>
                 <p className="text-[#6d129b] text-lg font-normal py-7">{t("contact.text")}</p>
                 <h3 className="text-white text-xl font-bold pb-5">{t("contact.subtitle")}</h3>
                 <div className="">
@@ -71,7 +71,7 @@ function Contact() {
               {/* form-contact */}
               <div className="w-full   flex items-center justify-center">
                 <div className=" rounded-lg w-full shadow-lg">
-                  <h2 className="text-white text-4xl font-bold md:text-2xl  mb-[40px]">{t("contact.title1")}</h2>
+                  <h2 className="text-white text-4xl max-[440px]:text-3xl font-bold md:text-2xl  mb-[40px]">{t("contact.title1")}</h2>
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <input
                       type="text"

@@ -1,11 +1,11 @@
 {
-    "header":{
-        "home": "Bosh sahifa",
-        "services": "Xizmatlarimiz",
-        "work": "Bizning ishlar",
-        "prices": "Narxlar"
-    },
-        "home": {
+         "header":{
+            "home": "Bosh sahifa",
+            "services": "Xizmatlarimiz",
+            "work": "Bizning ishlar",
+            "prices": "Narxlar"
+         },
+           "home": {
            "title": "Biznesingizni rivojlantirish uchun mukammal 'IT' yechimlari!",
            "text": "10+ yillik tajribaga ega mutaxassislarga loyihangizni ishonib topshiring va qisqa vaqt ichida katta muvaffaqiyatga erishing.",
            "btn": "Bog‘lanish"
@@ -72,6 +72,8 @@
            "services": "Bizning xizmatlar",
            "title1": "Ma'lumotlaringizni qoldiring"
         }
+       
+
      
   }
   

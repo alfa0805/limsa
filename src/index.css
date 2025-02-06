@@ -2,6 +2,11 @@
 
 body{
     background-color: #121212;
+   
+}
+*{
+    transition: all 0.4s;
+    scroll-behavior: smooth;
 }
 .container{
   max-width: 1340px;
@@ -54,6 +59,16 @@ body{
   .contact{
     background-image: url(./assets/contactbg.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
+  }
+  .prices{
+    background-image: url(./assets/pricesbg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .page{
+    background-image: url(./assets/prices1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
   }
   

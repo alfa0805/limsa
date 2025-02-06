@@ -17,6 +17,7 @@ import Work8 from "../assets/zamonTour-W0hbPX7f.jpg"
 import Work9 from "../assets/work2.jpg"
 
 import { FaLaptop, FaUserShield, FaShieldAlt, FaHeadset, FaServer, FaGlobe } from "react-icons/fa";
+
 const features = [
   { icon: <FaLaptop size={40} />, title: "servic.subtitle1", text: "servic.text1", number: "01" },
   { icon: <FaUserShield size={40} />, title: "servic.subtitle2", text: "servic.text1", number: "02" },
@@ -70,9 +71,11 @@ function Home() {
           <p className="text-gray-300 text-lg font-medium pt-[40px] pb-[30px] max-[700px]:text-center">{t("home.text")}</p>
           <a href="#order" className="w-full">
             <div className="w-[100px] max-[700px]:mx-auto">
-              <button className="w-[100px] h-[40px] bg-[#8432e8] text-lg text-white font-medium border-2 border-[#8432e8] rounded-2xl hover:bg-transparent transition-all duration-500 hover:text-[#8432e8]">
-                 {t("home.btn")}
-              </button>
+              <a href="#order" className="">
+                <button className="w-[100px] h-[40px] bg-[#8432e8] text-md text-white font-medium border-2 border-[#8432e8] rounded-2xl hover:bg-transparent transition-all duration-500 hover:text-[#8432e8]">
+                  {t("home.btn")}
+                </button>
+              </a>
             </div>
           </a>
         </div>
