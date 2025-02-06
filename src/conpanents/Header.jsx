@@ -13,7 +13,7 @@ function Header() {
     const [scrolled, setIsSrolled] = useState(false)
       useState(() => {
         const handleScroll = () => {
-          if (window.scrollY > 50){
+          if (window.scrollY > 10){
             setIsSrolled(true)
           } else{
             setIsSrolled(false)
@@ -30,7 +30,7 @@ function Header() {
         i18n.changeLanguage(lang)
       }
   return (
-    <header className="bg-[#121212] z-50 relative  ">
+    <header className="bg-[#121212] z-50 relative">
        <div className={`fixed ${scrolled?"bg-[#121212]":"bg-none"} border-b border-gray-600 container w-full h-[80px] px-5 py-[10px] flex items-center justify-between `}>
             <div className="flex items-center gap-[50px]">
                 <div className="w-[125px] h-[30px] ml-[10px]">
@@ -61,8 +61,8 @@ function Header() {
             </div>
         {
            modal?
-          <div className="w-[200px] flex items-center  gap-[15px] flex-col absolute top-[80px] right-0">
-            <ul className="flex items-center flex-col gap-8">
+          <div className="w-[200px] h-full bg-[#121212] rounded-xl flex items-center  gap-[15px] flex-col fixed top-[80px] right-0">
+                <ul className="pt-5 flex items-center flex-col gap-8">
                     <li className="text-white"><NavLink  className={({ isActive }) => (isActive ? "active nav-link" : "nav-link")} to="/">{t("header.home")}</NavLink></li>
                     <li className="text-white"><NavLink  className={({ isActive }) => (isActive ? "active nav-link" : "nav-link")} to="/services">{t("header.services")}</NavLink></li>
                     <li className="text-white"><NavLink  className={({ isActive }) => (isActive ? "active nav-link" : "nav-link")} to="/work">{t("header.work")}</NavLink></li>

@@ -4,6 +4,74 @@
         "services": "Our services",
         "work": "Our Work",
         "prices": "Prices"
+   },
+   "home":{
+      "title":"Perfect 'IT' solutions to grow your business!",
+      "text":"Entrust your project to experts with more than 10 years of experience and achieve high success in a short time.",
+      "btn":"Contact"
+   },
+   "faq":{
+      "title":"Frequently Asked Questions",
+      "subtitle1":"Why are the prices so cheap?",
+      "text1":"Our prices are really cheap compared to the quality. The reason is that we don't have excess labor in our web studio, so we don't have excess costs. That's why we keep our prices low compared to others.",
+      "subtitle2":"Will i be able to edit the site myself in the future?",
+      "text2":"Yes, of course, you will be given access and instructions to the content management system (adminka). Adminka has a convenient interface, is intuitive and does not require specific knowledge.",
+      "subtitle3":"Will you continue to support the site after it's finished?",
+      "text3":"Once we've finished your site, we'll keep it running for free, 24/7 for one year. After one year, it's $10/month."
+   },
+   "marque":{
+      "text1":"WEBSITE BUILDING  SERVICE",
+      "text2":"MOBILE APPS",
+      "text3":"AUTOMATION SYSTEMS",
+      "text4":"DIGITAL SOLUTIONS"
+   },
+   "work":{
+      "title":"Our Recent Projects",
+      "subtitle1":"ataevbahodirbuild.uz",
+      "subtitle2":"autozoomrental.com",
+      "subtitle3":"it-time-academy.uz",
+      "subtitle4":"homekit.uz",
+      "subtitle5":"uzloyal.uz",
+      "subtitle6":"namanganoits.uz",
+      "subtitle7":"propartnyor.uz",
+      "subtitle8":"zamontour.uz",
+
+      "text1":"Ataev Bahadir Build - quality construction and repair services! Choose us, create the house of your dreams.",
+      "text2":"AutoZoomRental - convenient and reliable car rental! Make your trip more pleasant with our cars.",
+      "text3":"IT Time Academy is the destination of modern IT knowledge! Take the professions of the future with us.",
+      "text4":"HomeKit – modern and convenient smart home solutions! Ensure the safety and comfort of your home with us.",
+      "text5":"UzLoyal is a reliable and convenient loyalty system! The most effective way to motivate your customers.",
+      "text6":"Namangan ITS is a center of modern IT knowledge and skills! Get new opportunities at every step.",
+      "text7":"ProPartnyor is the address of reliable and effective cooperation! We will work together for the success of your business.",
+      "text8":"ZamonTour – experience a happy tourist experience with us! Your trip with us is guaranteed to be more pleasant."  
+   },
+   "servic":{
+      "title1":"Why us? Why most people choose us?",
+      "title2":"Our Benefits",
+      "subtitle1":"Adaptive",
+      "subtitle2":"Admin",
+      "subtitle3":"Protection",
+      "subtitle4":"Monitoring 24/7",
+      "subtitle5":"Domain and Hosting",
+      "subtitle6":"Unique",
+      "text1":"The websites we create will be flexible. That is, they will have a tablet and mobile version. There will be no separate payment for this.",
+      "text2":"Your website will have a convenient and simple admin panel that will allow you to manage the site from within.",
+      "text3":"Our websites are protected by modern anti-virus and firewalls to resist spambots and attacks.",
+      "text4":"Your website is automatically monitored online 24 hours a day to keep it up and running.",
+      "text5":"Domain and hosting run around, forget about headaches. We have domain UZ and hosting free for 6 months (then $10/month)",
+      "text6":"The design of each site we create will be unique and different from other sites. One design is one site!"
+   },
+   "contact":{
+      "title":"Order a website for your business now, And get a small gift from us 10% off!",
+      "text":"Satisfying every customer is our highest goal - LIMSA",
+      "subtitle":"Pages",
+      "home":"Home",
+      "services":"Our services",
+      "title1":"Leave your details",
+      "input1":"Your Name",
+      "input2":"Your Name"
+
+
    }
 }
   
