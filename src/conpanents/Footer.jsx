@@ -65,9 +65,9 @@ function Footer() {
               </div>
             </div>
         </div>
-        <div className="container bg-[#121111] px-5 py-5 flex items-center justify-between">
+        <div className="container h-full bg-[#121111] px-5 py-5 md:flex items-center justify-between">
             <a href="#" className="">
-              <div className="w-[12vw] h-[3.1vw]">
+              <div className="w-[150px] h-[40px] mb-3 md:pb-0">
                 <img src={Logo} alt="" className="w-full h-full"/>
               </div>
             </a>

@@ -3,6 +3,7 @@ import Header from './conpanents/Header'
 import Footer from './conpanents/Footer'
 import { Outlet } from 'react-router-dom'
 import Contact from './pages/Contact'
+import 'animate.css';
 
 function App() {
   return (

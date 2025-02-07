@@ -83,7 +83,7 @@ function Contact() {
                       className="w-full p-3 bg-[#292929] text-white rounded-2xl outline-none"
                     />
                     <div className="flex items-center bg-[#292929] text-white rounded-2xl">
-                      <span className="px-3 text-gray-400">+998</span>
+                      <span className="pl-3 text-gray-400">+998</span>
                       <input
                         type="tel"
                         name="phone"
