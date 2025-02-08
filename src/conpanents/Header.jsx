@@ -51,10 +51,10 @@ function Header() {
             </div>
             <div className="flex items-center gap-[10px]">
               <div className="w-[160px] h-[35px] bg-[#8432e8] p-[3px] border-2 border-[#8432e8] rounded-xl hover:bg-[#121212] hover:text-[#8432e8] max-[900px]:hidden">
-                <a href="tel:+998332587358" className="text-[16px] font-medium">+998 (33) 258 73 58</a>
+                <a href="tel:+998941445597" className="text-[16px] font-medium">+998 (33) 258 73 58</a>
               </div>
               <div className="w-[40px] h-[40px] bg-[#8432e8] p-[6px] border-2 border-[#8432e8] rounded-[20px] hover:bg-[#121212] hover:text-[#8432e8] min-[900px]:hidden">
-                <a href="tel:+998332587358" className="text-[16px] font-medium"><FiPhoneCall className="text-[23px] hover:text-green-400" /></a>
+                <a href="tel:+998941445597" className="text-[16px] font-medium"><FiPhoneCall className="text-[23px] hover:text-green-400" /></a>
               </div>
               <button onClick={menyu} className="ml-[10px] text-gray-100 text-[25px] font-bold min-[900px]:hidden"><HiMenu className="text-[#8432e8]"/></button>
             </div>
