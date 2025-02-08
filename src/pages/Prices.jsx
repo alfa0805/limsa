@@ -41,7 +41,7 @@ function Prices() {
           </ul>
           <div className="lg:flex items-center gap-8 p-[30px]">
             <p className="text-xl text-[#8432e8] font-bold pb-[10px] lg:pb-0">{t("pri.page.subtext1")}</p>
-            <button className="w-[140px] h-[35px] bg-[#8432e8] rounded-lg text-lg text-center font-bold text-[#fff]">{t("pri.page.subtext2")}</button>
+            <button className="w-[140px] h-full py-2 bg-[#8432e8] rounded-lg text-lg text-center font-bold text-[#fff]">{t("pri.page.subtext2")}</button>
           </div>
         </div>
         {/* --------SITE CARD---------- */}
@@ -72,7 +72,7 @@ function Prices() {
           </ul>
           <div className="lg:flex items-center gap-8 p-[30px]">
             <p className="text-xl text-[#8432e8] font-bold pb-[10px] lg:pb-0">{t("pri.card.subtext1")}</p>
-            <button className="w-[140px] h-[35px] bg-[#8432e8] rounded-lg text-lg text-center font-bold text-[#fff]">{t("pri.card.subtext2")}</button>
+            <button className="w-[140px] h-full py-2 bg-[#8432e8] rounded-lg text-lg text-center font-bold text-[#fff]">{t("pri.card.subtext2")}</button>
           </div>
         </div>
         {/* ----Exclusive------ */}
@@ -103,7 +103,7 @@ function Prices() {
           </ul>
           <div className="lg:flex items-center gap-8 p-[30px]">
             <p className="text-xl text-[#8432e8] font-bold pb-[10px] lg:pb-0">{t("pri.exc.subtext1")}</p>
-            <button className="w-[140px] h-[35px] bg-[#8432e8] rounded-lg text-lg text-center font-bold text-[#fff]">{t("pri.exc.subtext2")}</button>
+            <button className="w-[140px] h-full py-2 bg-[#8432e8] rounded-lg text-lg text-center font-bold text-[#fff]">{t("pri.exc.subtext2")}</button>
           </div>
         </div>
       </div>
